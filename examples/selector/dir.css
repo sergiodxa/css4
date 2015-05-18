@@ -1,0 +1,7 @@
+.breadcrumb__item:dir(ltr) {
+  border-right: 1px solid black;
+}
+
+.breadcrumb__item:dir(rtl) {
+  border-left: 1px solid black;
+}
