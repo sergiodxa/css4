@@ -1,0 +1,11 @@
+:column(.titulos) {
+  background-color: red;
+}
+
+:nth-column(2) {
+  background-color: green;
+}
+
+:nth-last-column() {
+  background: blue;
+}
