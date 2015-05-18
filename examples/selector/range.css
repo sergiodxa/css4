@@ -1,0 +1,7 @@
+input[type="number"]:in-range {
+  border-color: green;
+}
+
+input[type="number"]:out-of-range {
+  border-color: red;
+}
