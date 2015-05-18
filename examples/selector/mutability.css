@@ -1,0 +1,7 @@
+:read-only {
+  border: 1px solid red;
+}
+
+:read-write {
+  border: 1px solid green;
+}

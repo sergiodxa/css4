@@ -247,6 +247,18 @@
           Cuando el usuario modifique el valor de un elemento INPUT, si el valor ingresado es inválido el color de fondo va a cambiar a rojo.
         </p>
       </article>
+
+      <article>
+        <h3>:read-only &amp; :read-write</h3>
+        <p>
+          Este selector permite estilizar elementos que sean o no modificables por el usuario, elementos no modificables son INPUT con el atributo readonly o cualquier otro elemento que no tenga el atributo "contenteditable".
+        </p>
+
+        <pre data-src="examples/selector/mutability.css"></pre>
+        <p class="desc">
+          Cualquier elemento que no sea editable va a tener un borde sólido rojo de 1px, los que sí sean editables van a tener un border de color verde.
+        </p>
+      </article>
     </section>
   </main>
 
