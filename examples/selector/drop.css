@@ -1,0 +1,10 @@
+:drop(valid) {
+  background-color: green;
+}
+:drop(active valid) {
+  background: yellow;
+}
+
+:drop(invalid) {
+  background: red;
+}
