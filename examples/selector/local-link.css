@@ -1,0 +1,8 @@
+a:local-link {
+  color: blue;
+}
+
+a:not(:local-link):after {
+  font-family: 'IconFont';
+  content: "\f099";
+}
