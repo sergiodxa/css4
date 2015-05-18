@@ -107,6 +107,20 @@ li { flex-basis: 100%; }
 
 pre { clear: both; }
 
+.desc {
+  background-color: #eee;
+  border-radius: 0 0 5px 5px;
+  color: #444;
+  margin: -8px auto 0;
+  padding: .5em 1em;
+  width: 90%;;
+}
+
+.desc::before {
+  content: 'Explicación: ';
+  font-weight: bold;
+}
+
 .button,
 button {
   background-color: #428bca;
