@@ -1,0 +1,6 @@
+li:lang(es-*) {
+  color: red;
+}
+li:lang(en-*) {
+  color: blue;
+}
