@@ -74,6 +74,20 @@
           Todos los elementos P que sean los primeros y tengan la clase .special tienen un color de texto azul.
         </p>
       </article>
+
+      <article>
+        <h3>:has(s1, ...sN)</h3>
+        <p>
+          Este nuevo selector estiliza los elementos que tengan como hijos los selectores indicados.
+        </p>
+
+        <pre data-src="examples/selector/has.css"></pre>
+        <p class="desc">
+          Los elementos P cuyo primer elemento hijo sea un IMG van a tener el texto centrado.<br />
+          Los elementos ARTICLE que posean uno o más H2 y/o H3 van a tener el color de texto verde.<br />
+          Todos los elementos que contengan un elemento con la clase .urgent van a tener el color de fondo rojo.
+        </p>
+      </article>
     </section>
   </main>
 

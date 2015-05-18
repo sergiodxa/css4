@@ -1,0 +1,11 @@
+p:has(+img) {
+  text-align: center;
+}
+
+article:has(h2, h3) {
+  color: green;
+}
+
+:has(.urgent) {
+  background-color: red;
+}
