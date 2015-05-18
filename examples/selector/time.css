@@ -1,0 +1,4 @@
+:current(p) { opacity: 1; }
+
+:past(p),
+:future(p) { opacity: .75; }
