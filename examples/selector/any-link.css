@@ -1,0 +1,4 @@
+nav a:any-link {
+  color: red;
+  text-decoration: none;
+}
