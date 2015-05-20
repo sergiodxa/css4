@@ -342,8 +342,20 @@
         </p>
 
         <pre data-src="examples/variable/uso.css"></pre>
-        <p>
+        <p class="desc">
           Definimos que el elemento HEADER va a tener como color de fondo el valor guardado en la variable --main-color.
+        </p>
+      </article>
+
+      <article>
+        <h3>Herencia</h3>
+        <p>
+          Es posible modificar el valor de una variable dentro de algún selector, cualquier hijo del elemento donde se modificó el valor de la variable va a tener como valor el nuevo valor, mientras que el resto tendrá el valor definido en :root.
+        </p>
+
+        <pre data-src="examples/variable/herencia.css"></pre>
+        <p class="desc">
+          Todos los elementos van a tener como color de fondo #1196CF mientras que los elementos SECTION y sus elementos hijos van a tener como color de fondo #F5DA55.
         </p>
       </article>
     </section>

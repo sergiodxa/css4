@@ -1,0 +1,7 @@
+section {
+  --main-color: #F5DA55;
+}
+
+* {
+  background-color: var(--main-color);
+}
