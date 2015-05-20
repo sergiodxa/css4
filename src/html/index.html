@@ -368,7 +368,21 @@
         <p>
           Es muy común al momento de estar creando nuestras hojas de estilos que se repitan muchas veces una media query para un mismo tamaño, para esto se incorpora la posibilidad de crear una media query personalizada que se puede luego modificar desde un solo lugar de ser necesario, pero usar en múltiples media queries.
         </p>
-      </article>x
+      </article>
+
+      <article>
+        <h3>Definición</h3>
+        <p>
+          Para definir una media query personalizada hay que usar la siguiente sintaxis:<br>
+          @custom-media --nombre (min-width: 1000px);<br>
+          En esta sintaxis vemos que con @custom-media indicamos que vamos a crear una media query personalizada, --nombre es el nombre de la media query con la misma sintaxis que las variables y entre paréntesis va el valor de la media query en cuestión.
+        </p>
+
+        <pre data-src="examples/media-queries/definicion.css"></pre>
+        <p class="desc">
+          Creamos una media query personalizada llamada --mobile-size que funciona desde 320px hasta 740px;
+        </p>
+      </article>
     </section>
   </main>
 
