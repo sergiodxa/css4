@@ -1,1 +1,1 @@
-@custom-media --mobile-size (min-width: 320px) and (max-width: 740px);
+@custom-media --nexus5-size (min-width: 360px) and (max-width: 640px);

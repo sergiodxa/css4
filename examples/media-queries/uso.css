@@ -1,0 +1,5 @@
+@media (--nexus5-size) {
+  aside {
+    display: none;
+  }
+}

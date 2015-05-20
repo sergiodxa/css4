@@ -373,14 +373,26 @@
       <article>
         <h3>Definición</h3>
         <p>
-          Para definir una media query personalizada hay que usar la siguiente sintaxis:<br>
-          @custom-media --nombre (min-width: 1000px);<br>
+          Para definir una media query personalizada hay que usar la siguiente sintaxis:<br><br>
+          @custom-media --nombre (min-width: 1000px);<br><br>
           En esta sintaxis vemos que con @custom-media indicamos que vamos a crear una media query personalizada, --nombre es el nombre de la media query con la misma sintaxis que las variables y entre paréntesis va el valor de la media query en cuestión.
         </p>
 
         <pre data-src="examples/media-queries/definicion.css"></pre>
         <p class="desc">
-          Creamos una media query personalizada llamada --mobile-size que funciona desde 320px hasta 740px;
+          Creamos una media query personalizada llamada --nexus5-size que funciona desde 360px hasta 640px;
+        </p>
+      </article>
+
+      <article>
+        <h3>Uso</h3>
+        <p>
+          Para usar la media query personalizada solamente hay que colocar el nombre entre parénteris en una media query normal.
+        </p>
+
+        <pre data-src="examples/media-queries/uso.css"></pre>
+        <p class="desc">
+          Creamos una media query cuyo valor es nuestra media query personalizada --nexus5-size que al funcionar oculta los elementos ASIDE.
         </p>
       </article>
     </section>
