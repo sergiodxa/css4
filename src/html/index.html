@@ -310,6 +310,30 @@
         </p>
       </article>
     </section>
+
+    <section>
+      <h2 id="variables">
+        <a href="#variables">Variables (nivel 1)</a>
+      </h2>
+
+      <article>
+        <h3>Introducción</h3>
+        <p>
+          Las variables son un nuevo módulo que se incorpora a CSS, oficialmente se llaman <strong>custom properties</strong>. La idea principal es permitír lo que ahora se hace con variables en preprocesadores, con la diferencia de que al estar directo en el CSS es posible editarlas desde JavaScript y ver como afecta en múltiples lugares de la hoja de estilos.
+        </p>
+      </article>
+
+      <article>
+        <h3>Definiendo variables</h3>
+        <p>
+          Para definir una variable simplemente hay que colocar un selector llamado :root y dentro cada variable va a ser una propiedad que empiece con --, por ejemplo --foo.
+        </p>
+      </article>
+      <pre data-src="examples/variable/definicion.css"></pre>
+      <p class="desc">
+        Creamos una variable llamada --main-color igual al valor #1196CF.
+      </p>
+    </section>
   </main>
 
   <!-- prism library -->
