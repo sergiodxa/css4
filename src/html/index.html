@@ -328,11 +328,24 @@
         <p>
           Para definir una variable simplemente hay que colocar un selector llamado :root y dentro cada variable va a ser una propiedad que empiece con --, por ejemplo --foo.
         </p>
+
+        <pre data-src="examples/variable/definicion.css"></pre>
+        <p class="desc">
+          Creamos una variable llamada --main-color igual al valor #1196CF.
+        </p>
       </article>
-      <pre data-src="examples/variable/definicion.css"></pre>
-      <p class="desc">
-        Creamos una variable llamada --main-color igual al valor #1196CF.
-      </p>
+
+      <article>
+        <h3>Usando variables</h3>
+        <p>
+          Para usar una variable en algún lugar de tu hoja de estilos hay que colocar var(--nombre) en el valor de la propiedad donde se quiere usar la variable.
+        </p>
+
+        <pre data-src="examples/variable/uso.css"></pre>
+        <p>
+          Definimos que el elemento HEADER va a tener como color de fondo el valor guardado en la variable --main-color.
+        </p>
+      </article>
     </section>
   </main>
 
